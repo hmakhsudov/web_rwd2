@@ -1,0 +1,179 @@
+body{
+    color: #688800;
+    font-family: "El Messiri", sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #688800;
+}
+
+
+@media (min-width: 768px) {
+    .container{
+        max-width: 1920px;
+        margin: 0 auto;
+    }
+    header{
+        margin-bottom: 50px;
+    }
+    header nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    header ul {
+        display: flex;
+    }
+    header ul li{
+        margin-right: 88px;
+    }
+    header ul li:last-child{
+        margin-right: 0;
+    }
+    .hamburger{
+        display: none;
+    }
+
+    .content__wrapper{
+        display: flex;
+        align-items: center;
+        max-width: 1300px;
+        margin: 0 auto;
+
+    }
+    .content__wrapper h1{
+        font-size: 64px;
+        line-height: 80px;
+        font-family: "Amatic SC", sans-serif;
+        color: #4A4A4A;
+        margin-bottom: 32px;
+    }
+    .content__wrapper h3{
+        font-size: 18px;
+        font-weight: 300;
+        color: #4A4A4A;
+        margin-bottom: 32px;
+    }
+    .content__counter{
+        display: flex;
+        align-items: center;
+        margin-bottom: 35px;
+    }
+    .counter__btn{
+        padding: 8px 10px;
+        border: 1px solid #949494;
+        background-color: transparent;
+        color: #4A4A4A;
+        border-radius: 8px;
+
+    }
+    .counter__value{
+        margin-left: 25px;
+        margin-right: 25px;
+
+    }
+    .content__links{
+        display: flex;
+    }
+    .content__link{
+        padding: 8px 48px;
+        border: 1px solid #688800;
+        color: #688800;
+        transition: all .3s;
+        border-radius: 50px;
+    }
+    .content__link:first-child{
+        margin-right: 20px;
+    }
+
+    .content__link:hover{
+        border-color: #4A4A4A;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .container{
+        max-width: 280px;
+        margin: 0 auto;
+
+    }
+    .header__logo{
+        height: 80px;
+    }
+    .header__logo img{
+        height: 80px;
+    }
+    .header__shopcart{
+        width: 32px;
+    }
+    header{
+        margin-bottom: 30px;
+    }
+    header nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    header ul{
+        display: none;
+    }
+    .content__wrapper{
+        max-width: 280px;
+        margin: 0 auto;
+    }
+    .content__image img{
+        width: 280px;
+    }
+
+    .content__wrapper h1{
+        font-size: 36px;
+        font-family: "Amatic SC", sans-serif;
+        color: #4A4A4A;
+        margin-bottom: 8px;
+    }
+    .content__wrapper h3{
+        font-size: 16px;
+        color: #4A4A4A;
+
+        margin-bottom: 24px;
+    }
+    .content__counter{
+        display: flex;
+        align-items: center;
+        margin-bottom: 24px;
+        justify-content: center;
+    }
+    .counter__btn{
+        padding: 8px 10px;
+        border: 1px solid #949494;
+        background-color: transparent;
+        color: #4A4A4A;
+        border-radius: 8px;
+
+    }
+    .counter__value{
+        margin-left: 25px;
+        margin-right: 25px;
+
+    }
+
+    .content__links{
+        display: flex;
+        flex-direction: column;
+    }
+    .content__link{
+        text-align: center;
+        padding: 8px 20px;
+        border: 1px solid #688800;
+        color: #688800;
+        transition: all .3s;
+        border-radius: 50px;
+        margin-bottom: 24px;
+    }
+    /* .content__link:first-child{
+        margin-right: 20px;
+    } */
+
+}
